@@ -1,10 +1,15 @@
-print ("Hello World!")
+import time
+
+print ("Hallo World!")
 print ("Wie ist dein Name?")
 name = input()
-print ("toll dich kennenzulernen, " + name)
+print ("Toll dich kennenzulernen, " + name)
+time.sleep(2)
 print ("Wie alt bist du?")
 age = input ()
 print (age + "Ist ja ein tolles Alter")
+time.sleep(2)
 print ("Was sind deine Hobbys?")
 hobby = input ()
 print ("Ich mag auch " + hobby)
+time.sleep(4)
